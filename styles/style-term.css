@@ -1,0 +1,77 @@
+.terminall{
+    background-color: #222222;
+    /* background-size: 800px 41px; */
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    width: 800px;
+    /* height: 620px; */
+    border: 1px solid 	#111111;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    margin-left:30px;
+    
+}
+
+.ter{
+    /* background-color: transparent; */
+    background:#2C001E;
+    overflow-y: scroll;
+}
+
+
+.terminal {
+    background-color: #000;
+    color: #fff;
+    /* font-family: monospace; */
+    height: 500px;
+    width: 700px;
+  }
+  
+  .terminal-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .terminal-body {
+    padding: 10px;
+    
+  }
+  
+  .terminal-output {
+    margin-bottom: 10px;
+    
+  }
+  
+  .terminal-output pre {
+    margin: 0;
+  }
+  
+  .terminal-prompt {
+    display: flex;
+    
+    
+  }
+  
+  .terminal-user {
+    color: #0f0;
+    margin-right: 5px;
+  }
+  
+  .terminal-directory {
+    color: #00f;
+    margin-right: 5px;
+  }
+  
+  .terminal-input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+
+  }
+  

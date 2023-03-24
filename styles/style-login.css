@@ -1,0 +1,84 @@
+
+body{
+   
+    background-image: url("assets/wallp/mars_sunset.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+            
+    
+
+}
+.login-win{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.img-usr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+     
+}
+
+.usr-img{
+    height: 96px;
+    width: 96px;
+    padding: 20px;
+    border: 0px solid rgba(0, 0, 0, 0.78);
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 50%;
+}
+.usr-name{
+    color: white;
+    font-weight: bold;
+}
+
+.pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.inp-pass{
+    padding-left: 10px;
+    height: 35px;
+    width: 230px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+    font-size: 24px;
+   
+}
+
+.nxt{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    /* background-color:rgba(0, 0, 0, 0.50) ;
+    border-radius: %; */
+}
+
+.u-logo{
+    height: 200px;
+    width: auto;
+}
+
+.logo{
+    /* position: fixe   d; */
+    bottom: auto;
+    right:auto;
+}
