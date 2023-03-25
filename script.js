@@ -254,5 +254,5 @@ const trmfPic = document.getElementById('trml');
 trmfPic.addEventListener("click",function(e){
     termdraggable.style.zIndex = ++zIndex;
     termdraggable.style.display = "block";
-    document.documentElement.requestFullscreen();
+    // document.documentElement.requestFullscreen();
 })
