@@ -211,7 +211,7 @@ const projfPic = document.getElementById('proj-idea');
 projfPic.addEventListener("click",function(e){
     prodraggable.style.zIndex = ++zIndex;
     prodraggable.style.display = "block";
-    document.documentElement.requestFullscreen();
+    // document.documentElement.requestFullscreen();
 })
 
 
