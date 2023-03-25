@@ -61,7 +61,7 @@ document.addEventListener("mouseup", function(e) {
     isDragging = false;
 });
 
-var img = draggable.querySelector("img");
+var img = draggable.querySelector("#abt-close");
 img.addEventListener("click", function(e) {
     // draggable.parentNode.removeChild(draggable);
     console.log(draggable.style.display);
@@ -103,7 +103,7 @@ document.addEventListener("mouseup", function(e) {
     ismDragging = false;
 });
 
-var img = resdraggable.querySelector("img");
+var img = resdraggable.querySelector("#res-close");
 img.addEventListener("click", function(e) {
     // draggable.parentNode.removeChild(draggable);
     console.log(resdraggable.style.display);
@@ -199,7 +199,7 @@ document.addEventListener("mouseup", function(e) {
     xisDragging = false;
 });
 
-var img = prodraggable.querySelector("img");
+var img = prodraggable.querySelector("#proj-close");
 img.addEventListener("click", function(e) {
     // draggable.parentNode.removeChild(draggable);
     console.log(prodraggable.style.display);
@@ -242,7 +242,7 @@ document.addEventListener("mouseup", function(e) {
     termisDragging = false;
 });
 
-var img = termdraggable.querySelector("img");
+var img = termdraggable.querySelector("#trm-close");
 img.addEventListener("click", function(e) {
     // draggable.parentNode.removeChild(draggable);
     console.log(termdraggable.style.display);

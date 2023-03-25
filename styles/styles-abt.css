@@ -45,7 +45,7 @@
     width: 13px; 
 }
 
-#mclose{
+#res-close,#abt-close,#trm-close,#proj-close{
     
     background-color: #E95420;
 }

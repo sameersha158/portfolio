@@ -8,11 +8,11 @@ const helpCommand = {
   description: 'Display a list of available commands',
   run: function() {
     displayOutput(['<br>', 
-      '<span class="command">help</span>             Display a list of available commands',
+      '<span class="command">help</span>            Display a list of available commands',
       '<span class="command">projects</span>        View coding projects',
-      '<span class="command">whois</span>        View coding projects',
-      '<span class="command">contact</span>        View coding projects',
-      '<span class="command">social</span>        View coding projects',
+      '<span class="command">whois</span>           View info about me',
+      '<span class="command">contact</span>         View contact details',
+      '<span class="command">social</span>          View social',
       
       '<br>'
     ]);
@@ -35,12 +35,13 @@ const whoisCommand = {
     description: 'About me',
     run: function() {
       displayOutput(['<br>', 
-      "Hey, I'm Sameer Sha‹",
-      "a Computer Engineering Syudent at MIT Academy of Engineering, pune,",
-      " who has passion for building clean web applications with ",
-      "intuitive functionality. I enjoy the process of turning ideas into ",
-      "reality using creative solutions. I’m always curious ",  
-      " about learning new skills, tools, and concepts.",
+      "Hey, I'm Sameer Sha, ",
+      "a Computer Engineering student at MIT Academy of Engineering, Pune.", 
+      "I am passionate about building clean and intuitive web applications ",
+      "that provide innovative solutions to real-world problems.I enjoy the ",
+      "process of turning ideas into reality using creative solutions.",
+      "I am always curious and eager to learn new skills, tools, and concepts",
+      "to help me improve my craft and create even more impactful applications.",
         '<br>'
       ]);
     }
@@ -66,7 +67,7 @@ const contactCommand = {
       'Github <a href="https://github.com/sameersha158" > https://github.com/sameersha158</a>  ',
       'LinkedIn: <a href="" >  https://www.linkedin.com/in/sameer-sha-67732222a/ </a>',
       'GeeksForGeek: <a href="https://auth.geeksforgeeks.org/user/sameer158/practice/smeer158" >  https://auth.geeksforgeeks.org/user/sameer158/practice/smeer158 </a>',
-      'Leetode: <a href="https://leetcode.com/sameerxv8" >  https://leetcode.com/sameerxv8 </a>',
+      // 'Leetode: <a href="https://leetcode.com/sameerxv8" >  https://leetcode.com/sameerxv8 </a>',
       'Codechef: <a href="https://www.codechef.com/users/itachi158"> https://www.codechef.com/users/itachi158</a>',
         '<br>'
       ]);

@@ -30,8 +30,8 @@
     /* background-color: #F8F8F8; */
     background-color: #222222;
     position: absolute;
-    left: 150px;
-    top: 80px;
+    left: 200px;
+    top: 120px;
     width: 800px;
     height: 580px;
     border: 1px solid 	#111111;
@@ -45,8 +45,8 @@
     background-color: #222222;
     color: white;
     position: absolute;
-    left: 150px;
-    top: 120px;
+    left: 500px;
+    top: 200px;
     width: 800px;
     height: 620px;
     border: 1px solid 	#111111;
