@@ -6,6 +6,10 @@
   /* body {
     background-image: url("assets/ubuntu.jpg");
   } */
+
+*{
+    user-select: none;
+}
   
 img{
     cursor: pointer;
