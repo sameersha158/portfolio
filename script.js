@@ -2,7 +2,8 @@
 
 // digital clock
 
-
+var u = navigator.userAgent;
+console.log(u);
 function showTime(){
     var date = new Date();
     var h = date.getHours(); // 0 - 23
@@ -26,6 +27,14 @@ function showTime(){
     var time = h + ":" + m + " " + session;
     // document.getElementById("MyClockDisplay").innerText = time;
     document.getElementById("timer").textContent = time;
+
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var curDay = date.getDate();
+    var curMonth = months[date.getMonth()];
+
+    var today =curMonth +" "+ curDay;
+    document.getElementById("today").textContent = today;
+
     
     setTimeout(showTime, 1000);
     
@@ -94,8 +103,8 @@ resdraggable.addEventListener("mousedown", function(e) {
 
 document.addEventListener("mousemove", function(e) {
     if (ismDragging) {
-        resdraggable.style.left = (e.clientX - offset.x) + "px";
-        resdraggable.style.top = (e.clientY - offset.y) + "px";
+        resdraggable.style.left = (e.clientX - moffset.m) + "px";
+        resdraggable.style.top = (e.clientY - moffset.n) + "px";
     }
 });
 

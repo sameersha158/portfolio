@@ -1,0 +1,22 @@
+.console {
+    background-color: black;
+    color:  #00ff00;;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 10px;
+    height: 100vh;
+    overflow:hidden;
+  }
+  
+  .line:before {
+    
+    padding-right: 10px;
+  }
+
+  body{
+    margin: 0px;
+    overflow:hidden;
+  }
+  
+  
+  
