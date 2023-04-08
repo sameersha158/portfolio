@@ -63,5 +63,5 @@ const intrvl = setInterval(() => {
 }, 400);
 
 setTimeout(() => {
-    window.location.href = 'index.html';
+    window.location.href = 'login.html';
   }, 10* 100 + 8000); 
